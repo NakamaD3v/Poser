@@ -1,43 +1,31 @@
-#🌟 Poser
-Interactive AI-Powered Pose Detection on the Web
+# 🌟 Poser
+## Interactive AI-Powered Pose Detection on the Web
 
 Poser is a real-time web application that lets you use your webcam to detect, analyze, and gamify human poses. Whether you’re exercising, dancing, or rehabilitating, Poser gives instant feedback on alignment and form—making movement fun, engaging, and accessible. Built with MediaPipe, OpenCV, Flask, and React, Poser delivers a smooth, low-latency experience right in your browser.
 
 ---
 
-#🚧 Challenges
-Low-Latency Streaming
-Keeping frame rates high while processing AI inference on each frame.
-
-Cross-Browser Compatibility
-Ensuring MediaPipe’s WebRTC and webcam APIs work uniformly on Chrome, Firefox, and Edge.
-
-Pose Estimation Accuracy
-Balancing model confidence thresholds to avoid false positives without missing real poses.
-
----
-
-#🌱 Introduction
+# 🌱 Introduction
 Poser bridges the gap between AI research and everyday movement. By leveraging Google’s MediaPipe Pose model and OpenCV, it tracks your joint landmarks, calculates key angles, and instantly tells you if you’ve nailed the form. A playful UI and scoring system turn mundane exercises into interactive challenges—perfect for home workouts, physical therapy, or just goofing around with friends.
 
 ---
 
-#🌟 Key Features
-Real-Time Pose Estimation
+# 🌟 Key Features
+**Real-Time Pose Estimation**
 Utilizes MediaPipe’s efficient landmark detector to process 30+ FPS on modern hardware.
 
-Gamified Feedback & Scoring
+**Gamified Feedback & Scoring**
 Hit a 70% alignment threshold to score points; track successes and fails in each session.
 
-Multi-Pose Support
+**Multi-Pose Support**
 Easily extendable: add new poses by defining landmark angles and weights in server/poses.json.
 
-Live Camera Preview
+**Live Camera Preview**
 Mirror, pause, and snapshot your session directly in the browser.
 
 ---
 
-#🧠 Technology Stack
+# 🧠 Technology Stack
 ⚛️ React (Create React App) – Frontend UI & camera integration
 
 🐍 Flask & Flask-SocketIO – Backend API & real-time WebSocket channel
@@ -54,7 +42,7 @@ Mirror, pause, and snapshot your session directly in the browser.
 
 ---
 
-#📝 Project Details
+# 📝 Project Details
 Project Title: Poser
 Team Name: Nakama Dev
 Team Members: Izzul, Adli, Meru, Zaim
