@@ -30,10 +30,10 @@ Poser bridges the gap between AI research and everyday movement. By leveraging G
 ## 🧠 Technology Stack
 
 - ⚛️ **React (Create React App)** – Frontend UI & camera integration  
-- 🐍 **Flask & Flask-SocketIO** – Backend API & real-time WebSocket channel  
+- 🐍 **Flask** – Backend API & real-time WebSocket channel  
 - 📷 **OpenCV** – Frame capture & preprocessing  
 - ⛓️ **MediaPipe Pose** – Pose landmark detection  
-- 🔧 **Python (3.9+)** – Backend runtime  
+- 🔧 **Python (3.10)** – Backend runtime  
  
 
 ---
@@ -42,6 +42,6 @@ Poser bridges the gap between AI research and everyday movement. By leveraging G
 
 - **Project Title:** Poser  
 - **Team Name:** Nakama Dev  
-- **Team Members:** Izzul, Adli, Meru, Zaim  
+- **Team Members:** Izzul, Adli, Amir, Zaim  
 - **Institution:** Universiti Tenaga Nasional (UNITEN)  
 - **Event:** LoopHole Hackathon 2025  
