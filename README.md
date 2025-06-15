@@ -33,9 +33,8 @@ Poser bridges the gap between AI research and everyday movement. By leveraging G
 - 🐍 **Flask & Flask-SocketIO** – Backend API & real-time WebSocket channel  
 - 📷 **OpenCV** – Frame capture & preprocessing  
 - ⛓️ **MediaPipe Pose** – Pose landmark detection  
-- 🐳 **Docker & Docker Compose** – Containerization for easy deployment  
 - 🔧 **Python (3.9+)** – Backend runtime  
-- 🛠️ **Node.js (16+)** – Frontend runtime  
+ 
 
 ---
 
