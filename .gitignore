@@ -1,0 +1,6 @@
+# ignore Python venv
+venv/
+
+# common Python ignores
+__pycache__/
+*.py[cod]
